@@ -13,6 +13,9 @@
 		78C9FD6C283E39CE0010D3B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C9FD6A283E39CE0010D3B0 /* Main.storyboard */; };
 		78C9FD6E283E39CE0010D3B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C9FD6D283E39CE0010D3B0 /* Assets.xcassets */; };
 		78C9FD71283E39CE0010D3B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C9FD6F283E39CE0010D3B0 /* LaunchScreen.storyboard */; };
+		78C9FD96283E3D220010D3B0 /* MethodSwizzlingSuper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C9FD95283E3D220010D3B0 /* MethodSwizzlingSuper.swift */; };
+		78C9FD98283E3D2F0010D3B0 /* MethodSwizzlingTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C9FD97283E3D2F0010D3B0 /* MethodSwizzlingTop.swift */; };
+		78C9FD9A283E3DB80010D3B0 /* MethodSwizzlingExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C9FD99283E3DB80010D3B0 /* MethodSwizzlingExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		78C9FD6D283E39CE0010D3B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78C9FD70283E39CE0010D3B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78C9FD72283E39CE0010D3B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C9FD95283E3D220010D3B0 /* MethodSwizzlingSuper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodSwizzlingSuper.swift; sourceTree = "<group>"; };
+		78C9FD97283E3D2F0010D3B0 /* MethodSwizzlingTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodSwizzlingTop.swift; sourceTree = "<group>"; };
+		78C9FD99283E3DB80010D3B0 /* MethodSwizzlingExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodSwizzlingExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		78C9FD63283E39CE0010D3B0 /* iOSTopic */ = {
 			isa = PBXGroup;
 			children = (
+				78C9FD94283E3CFB0010D3B0 /* Method Swizzling */,
 				78C9FD64283E39CE0010D3B0 /* AppDelegate.swift */,
 				78C9FD66283E39CE0010D3B0 /* SceneDelegate.swift */,
 				78C9FD68283E39CE0010D3B0 /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				78C9FD72283E39CE0010D3B0 /* Info.plist */,
 			);
 			path = iOSTopic;
+			sourceTree = "<group>";
+		};
+		78C9FD94283E3CFB0010D3B0 /* Method Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				78C9FD95283E3D220010D3B0 /* MethodSwizzlingSuper.swift */,
+				78C9FD97283E3D2F0010D3B0 /* MethodSwizzlingTop.swift */,
+				78C9FD99283E3DB80010D3B0 /* MethodSwizzlingExtension.swift */,
+			);
+			path = "Method Swizzling";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +157,9 @@
 			files = (
 				78C9FD69283E39CE0010D3B0 /* ViewController.swift in Sources */,
 				78C9FD65283E39CE0010D3B0 /* AppDelegate.swift in Sources */,
+				78C9FD9A283E3DB80010D3B0 /* MethodSwizzlingExtension.swift in Sources */,
+				78C9FD96283E3D220010D3B0 /* MethodSwizzlingSuper.swift in Sources */,
+				78C9FD98283E3D2F0010D3B0 /* MethodSwizzlingTop.swift in Sources */,
 				78C9FD67283E39CE0010D3B0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
